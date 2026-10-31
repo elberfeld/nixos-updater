@@ -48,3 +48,7 @@ environment.systemPackages = [ inputs.nixos-updater.packages.${pkgs.system}.defa
 ```
 
 Entwicklung: `nix develop` und dann `python -m nixos_updater`.
+
+## Lizenz
+
+GPL-3.0-or-later, siehe [LICENSE](LICENSE).
