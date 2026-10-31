@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=NixOS Updater
+GenericName=Update-Manager
+Comment=Neue Commits der NixOS-Konfiguration anzeigen und System aktualisieren
+Exec=nixos-updater --show
+Icon=system-software-update
+Categories=System;Settings;
+Keywords=nixos;update;git;

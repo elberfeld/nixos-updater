@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nixos-updater"
+version = "0.1.0"
+description = "Tray-Tool, das neue Commits der NixOS-Konfiguration anzeigt und Updates startet"
+requires-python = ">=3.11"
+dependencies = ["PyQt6"]
+
+[project.scripts]
+nixos-updater = "nixos_updater.app:main"
+
+[tool.setuptools]
+packages = ["nixos_updater"]
